@@ -1,0 +1,6 @@
+task upper << {
+	String someString = 'nsajhkjfu_qw'
+	println "Original: " + someString
+	println "Upper case: " + someString.toUpperCase()
+}
+
